@@ -37,7 +37,7 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
     public String delete(Long id) {
         Employee emp = findById(id);
         if(empList.remove(emp))
-            return "Removed Employee!!";
+            return "Employee Removed Successfully!!";
         return "Employee not available!!";
     }
 
