@@ -37,8 +37,8 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
     public String delete(Long id) {
         Employee emp = findById(id);
         if(empList.remove(emp))
-            return "Employee Removed Successfully !!";
-        return "Expected Employee not available !!";
+            return "Employee Removed Successfully !";
+        return "Expected Employee not available !";
     }
 
     @Override
