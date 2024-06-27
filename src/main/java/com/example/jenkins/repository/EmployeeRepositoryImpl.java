@@ -38,7 +38,7 @@ public class EmployeeRepositoryImpl implements EmployeeRepository{
         Employee emp = findById(id);
         if(empList.remove(emp))
             return "Employee Removed Successfully!!";
-        return "Employee not available!!";
+        return "Expected Employee not available!!";
     }
 
     @Override
