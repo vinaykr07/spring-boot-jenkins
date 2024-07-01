@@ -2,7 +2,6 @@ package com.example.jenkins.services;
 
 import com.example.jenkins.model.Employee;
 import com.example.jenkins.repository.EmployeeRepository;
-import com.example.jenkins.repository.EmployeeRepositoryImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
