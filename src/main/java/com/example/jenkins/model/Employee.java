@@ -1,7 +1,14 @@
 package com.example.jenkins.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "Employee")
 public class Employee {
 
+    @Id
     private Long id;
     private String name;
     private Double salary;
